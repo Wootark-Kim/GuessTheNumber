@@ -1,0 +1,62 @@
+header{
+	font-family: "Bungee Spice", sans-serif;
+}
+
+body, header{
+	text-align: center;
+	
+}
+
+body{
+	background-color: #FFC7B3;
+}
+
+header{
+	font-family: "Bungee Spice", sans-serif;
+	background-color: #750000;
+	padding: 10px 0px;
+	text-shadow: 3px 3px 1px black;
+}
+
+#feedback{
+	background-color: grey;
+}
+
+#main{
+	color: #013B13;
+	font-size: 1.4em;
+}
+
+#guessBtn{
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#guessBtn:hover{
+	background-color: #B2DE90;
+}
+
+
+table, td{
+	margin: 0px auto;
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+#win{
+	background-color: #CBFAA5;
+	color: green;
+	font-weight: bold;
+}
+
+#loss{
+	background-color: #D49D9D;
+	color: red;
+	font-weight: bold;
+}
+
